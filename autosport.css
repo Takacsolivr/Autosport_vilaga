@@ -8,18 +8,19 @@ h2{
 
 }
 .kep_balra{
-
+    float: left;
 }
 .kep_jobbra{
-
+    float: right;
 }
 .kep_kozepen{
-
+    align-items: center;
 }
 
 img{
     border-radius: 10%;
-    border-color: coral;
+    border-color: rgb(43, 43, 43);
     border-style:groove;
     border-width: 10px;
 }
+
