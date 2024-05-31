@@ -3,15 +3,23 @@ h1{
     font-weight: bold;
     font-family: sans-serif;
 }
+
+h2{
+
+}
 .kep_balra{
-    float:left;
+
 }
 .kep_jobbra{
-    float:right;
+
 }
 .kep_kozepen{
-    
-}
-.kep_volkswagen{
 
+}
+
+img{
+    border-radius: 10%;
+    border-color: coral;
+    border-style:groove;
+    border-width: 10px;
 }
