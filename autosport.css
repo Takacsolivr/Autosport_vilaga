@@ -23,4 +23,13 @@ img{
     border-style:groove;
     border-width: 10px;
 }
+.szoveg_balra{
+    text-align:left;
+}
+.szoveg_kozepre{
+    text-align:center;
+}
+.szoveg_jobbra{
+    text-align:right;
+}
 
