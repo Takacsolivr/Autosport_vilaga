@@ -33,10 +33,9 @@ img{
     text-align:right;
 }
 body {
-    background-image: url("háttér.jpg");
+    background-image: url("hatter_2.0");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 p{
     color:aliceblue;
