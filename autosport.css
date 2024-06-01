@@ -32,4 +32,9 @@ img{
 .szoveg_jobbra{
     text-align:right;
 }
-
+.f1_hatter{
+    background-image: url("háttér");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
