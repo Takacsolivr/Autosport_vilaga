@@ -54,9 +54,11 @@ p{
 .szovegek{
     border-radius: 3%;
     border-width: thin;
-    width: 50%;
-    background-color:cadetblue;
-    align-items: center;
+    width: 65%;
+    height: 99%;
+    
+    
+    margin-left: 16%;
 }
 
 hr{
@@ -64,9 +66,62 @@ hr{
 }
 
 .also{
-    bottom: auto;
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+.bevezeto_h2{
+    color:white;
+    margin-left: 10px;;
 }
 
 .lemansh3{
     float: left;
+    color: white;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+
+.bevezeto_szoveg{
+    margin-left: 7%;
+    font-family:cursive;
+    font-size: 20px;
+}
+
+.lemans_szoveg{
+    margin-left: 7%;
+    text-align: start;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.wrc_h3{
+    color: rgb(255, 255, 255);
+    text-align: start;
+}
+
+.wrc_p{
+    text-align: start;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.f1_h3{
+    text-align: start;
+    color: rgb(255, 255, 255);
+}
+
+.f1_p{
+    text-align: start;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.csik{
+    color: aliceblue;
+}
+
+.gombok{
+    float: left;
+    
 }
