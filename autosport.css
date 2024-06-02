@@ -125,3 +125,37 @@ hr{
     float: left;
     
 }
+
+.bmw{
+    margin-top: 90px;
+    
+}
+
+.bmw_p{
+    color: white;
+    text-align: start;
+    margin-left: 10px;
+    margin-bottom: 90px;
+    
+}
+
+.bmw_h2{
+    margin-top: 40px;
+    text-align: left;
+}
+
+.f1_ismeretterjeszto{
+    font-family: serif;
+    text-align: left;
+}
+
+.fooldal_tablazat{
+    font-size: larger;
+    color: aliceblue;
+    text-align: start;
+    border: groove;
+    border-radius: 10px;
+    padding: 10px;  
+    
+}
+
