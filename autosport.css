@@ -2,10 +2,14 @@ h1{
     font-size:50px;
     font-weight: bold;
     font-family: serif;
+     color:aliceblue;
 }
 
 h2{
-
+ color:aliceblue;
+}
+h3,h4{
+     color:aliceblue;
 }
 .kep_balra{
     float: left;
