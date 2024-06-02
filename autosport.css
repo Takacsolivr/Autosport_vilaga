@@ -126,36 +126,36 @@ hr{
     
 }
 
-.bmw{
-    margin-top: 90px;
-    
-}
 
-.bmw_p{
-    color: white;
-    text-align: start;
-    margin-left: 10px;
-    margin-bottom: 90px;
-    
-}
-
-.bmw_h2{
-    margin-top: 40px;
-    text-align: left;
-}
-
-.f1_ismeretterjeszto{
+.ismeretterjeszto{
     font-family: serif;
     text-align: left;
 }
 
 .fooldal_tablazat{
+    margin-top: 50px;
     font-size: larger;
     color: aliceblue;
     text-align: start;
-    border: groove;
     border-radius: 10px;
     padding: 10px;  
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.w14{
+    margin-bottom: 20px;
+}
+.lista{
+    color: aliceblue;
+    text-align: start;
+
+}
+
+.skoda{
+    margin-top: 30px;
+}
+
+.vilagbajnokok{
+    text-align: start;
 }
 
