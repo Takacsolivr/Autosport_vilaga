@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Forma 1 - Autósport Világa</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="autosport.css">
+  <link rel="stylesheet" type="text/css" href="autosport.css">
 </head>
 <body>
   <!-- Navbar -->
@@ -113,53 +113,75 @@
     </table>
 
     <h2>Híres versenyzők</h2>
-    <div class="row">
-      <div class="col-md-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-evenly">
+      <div class="card col-xl-3 col-4 bg-transparent border-0">
+        <div>
+          <img class="card-img-top" src="hamilton.jpg" title="Lewis Hamilton" alt="Lewis Hamilton">
+        </div>
+       <div class="card-text">
         <h3>Lewis Hamilton</h3>
-        <p>Lewis Hamilton hétszeres világbajnok, és a sportág egyik legsikeresebb pilótája. A brit versenyző a Mercedes csapat színeiben érte el sikereit, és számos rekordot döntött meg karrierje során.</p> <br><br>
-       <img src="hamilton.jpg" alt="Lewis Hamilton">
+        <p>Lewis Hamilton hétszeres világbajnok, és a sportág egyik legsikeresebb pilótája. A brit versenyző a Mercedes csapat színeiben érte el sikereit, és számos rekordot döntött meg karrierje során.</p>
       </div>
-      <div class="col-md-4">
-        <h3>Michael Schumacher</h3>
-        <p>Michael Schumacher hétszeres világbajnok, és a Ferrari csapat ikonjává vált. A német pilóta számos rekordot állított fel, és neve örökre összeforrt a Forma 1 történetével.A 2013-ban bekövetkezett sajnálatos sí balesete óta csak a család szűkszavú közléseiből tudunk állaptáról.A lehető legjobbakat kívánjuk a legendának!</p>
-       <p class="kep_kozepen"><img src="schumaher.jpg" alt="Michael Schumaher"></p>
       </div>
-      <div class="col-md-4">
-        <h3>Fernando Alonso</h3>
-        <p>Fernando Alonso kétszeres világbajnok spanyol pilóta, aki a Renault csapat színeiben érte el legnagyobb sikereit. Alonso az egyik legtehetségesebb és legkitartóbb versenyző a mezőnyben.</p> <br><br>
-        <img src="alonso_2.jpg" height=295 width=203 alt="Fernando Alonso">
+      <div class="card col-xl-3 col-4 bg-transparent border-0">
+        <img class="card-img-top" src="schumaher.jpg" title="Michael Schumaher" alt="Michael Schumaher">
+        <div class="card-text">
+          <h3>Michael Schumacher</h3>
+          <p>Michael Schumacher hétszeres világbajnok, és a Ferrari csapat ikonjává vált. A német pilóta számos rekordot állított fel, és neve örökre összeforrt a Forma 1 történetével.A 2013-ban bekövetkezett sajnálatos sí balesete óta csak a család szűkszavú közléseiből tudunk állaptáról.A lehető legjobbakat kívánjuk a legendának!</p>
+      </div>
+      </div>
+      <div class="card col-xl-3 col-4 bg-transparent border-0">
+        <img class="card-img-top" src="alonso_2.jpg" title="Fernando Alonso" alt="Fernando Alonso">
+        <div class="card-text">
+          <h3>Fernando Alonso</h3>
+          <p>Fernando Alonso kétszeres világbajnok spanyol pilóta, aki a Renault csapat színeiben érte el legnagyobb sikereit. Alonso az egyik legtehetségesebb és legkitartóbb versenyző a mezőnyben.</p>
+        </div>
       </div>
     </div>
   </div>
   <div class="container mt-5">
  
     <div class="row">
-        <h3 class="szoveg_kozepre">Formula 1: Drive to Survive:</h3>
-           <p class="szoveg_kozepre">Formula 1: Hajsza a túlélésért (eredeti cím: Formula 1: Drive to Survive) egy dokumentumfilm-sorozat, ami a Formula 1 Group és a Netflix koprodukciójában készül. Az epizódok dramatizálva mutatják be egy-egy Formula-1-es bajnokság eseményeit, egy-egy évad mindig egy szezont foglal magába. A sorozat 2019. március 8-án debütált a Netflixen, és azóta elkészült a második és harmadik évad is. Utóbbi hazánkban már magyar szinkronnal debütált, melyben két magyar Formula–1-es kommentátor, Szujó Zoltán és Wéber Gábor is közreműködtek. A sorozat hatodik évada a 2023-as világbajnokságról 2024. februárjában jelent meg.</p>
+        <h3 class="text-center">Formula 1: Drive to Survive:</h3>
+           <p class="text-center">Formula 1: Hajsza a túlélésért (eredeti cím: Formula 1: Drive to Survive) egy dokumentumfilm-sorozat, ami a Formula 1 Group és a Netflix koprodukciójában készül. Az epizódok dramatizálva mutatják be egy-egy Formula-1-es bajnokság eseményeit, egy-egy évad mindig egy szezont foglal magába. A sorozat 2019. március 8-án debütált a Netflixen, és azóta elkészült a második és harmadik évad is. Utóbbi hazánkban már magyar szinkronnal debütált, melyben két magyar Formula–1-es kommentátor, Szujó Zoltán és Wéber Gábor is közreműködtek. A sorozat hatodik évada a 2023-as világbajnokságról 2024. februárjában jelent meg.</p> 
        
-  <div class="col-md-12 col-lg-4">  
-        <h4>Megalkotása:</h4>
+  <div class="col-md-12 col-lg-12">  
+        <h4 class="mt-4">Megalkotása:</h4>
 <p>2018 márciusában a Formula 1 Group bejelentette, hogy szerződést kötöttek a Netflixszel annak érdekében, hogy egy tíz epizódból álló minisorozatot készítsenek, és ennek keretén belül dokumentálják a 2018-as Formula-1-es világbajnokság történéseit. Ebbe nem egyezett bele minden csapat, éppen a két legnagyobb, a Mercedes és a Ferrari voltak azok, akik elzárkóztak, így a sorozat úgy készült el, hogy őket kihagyták a mélyebb elemzésekből (bár természetesen felbukkannak a sorozatban). Mivel a sorozat készítői amerikaiak, így az amerikai háttérrel induló Haas csapat kiemelt helyen szerepel benne.
 
 Ugyan valós eseményeket dolgoz fel, azokat sok esetben kissé túldramatizálva jelenítik meg.
 
 A sorozat nagy népszerűséget ért el, így ennek megfelelően berendelték a folytatást, méghozzá mind a tíz csapat részvételével.</p>
         </div>
-      <div class="col-md-12 col-lg-4">
-        <img src="drive_to_survive.jpg" width="350" height="200" alt="A sorozat 2021-es borítóképe:">
+      <div class="text-center col-md-12 col-lg-12 ">
+        <img src="drive_to_survive.jpg" width="500px" height="260px" title="A sorozat 2021-es borítóképe:" alt="A sorozat 2021-es borítóképe:">
       </div>
-<div class="col-md-12 col-lg-4">
-          <h4>Kritikák</h4>
+<div class="col-md-12 col-lg-12">
+          <h4 class="mt-3">Kritikák</h4>
          <p>A sorozatot kritizálók egyik legfőbb érve, hogy a Netflix csapat sokszor túldramatizálja a történteket, és ezt maguk a versenyzők is észrevették.[6] Ennek okán Max Verstappen több évadban sem volt hajlandó a kamerák előtt beszélni, ám a készítők ígéretet tettek, hogy hűebbek lesznek a valósághoz. Ezért 2023-tól az aktuálisan regnáló világbajnok is visszatért.</p>
-<a link href="https://hu.wikipedia.org/wiki/Formula_1:_Hajsza_a_t%C3%BAl%C3%A9l%C3%A9s%C3%A9rt" target="_blank">Források és további érdekességek a sorozattal kapcsolatban</a>  
+         <a link href="https://hu.wikipedia.org/wiki/Formula_1:_Hajsza_a_t%C3%BAl%C3%A9l%C3%A9s%C3%A9rt" target="_blank">Források és további érdekességek a sorozattal kapcsolatban</a><br><br>  
 </div>
- <div class="row">     
+</div> 
 <div>
-  <h3 class="szbeg_kozepre">Magyar vonatkozás a sportban:</h3>
+  <h3 class="text-center">Magyar vonatkozás a sportban:</h3>
 </div>
-      <div class="col-md-4">
-        <h3>Baumgartner Zsolt:</h3>
-        <p>Baumgartner Zsolt Magyarország első és máig egyetlen formula 1-es versenyzője.2003-2004 közt versenyzett a forma 1-ben és a 2004-es amerikai nagydíjon megszerezte MAgyarország egyetlen Formula 1-es wb pontját.</p> <br>
+
+<div class="card ps-2 bg-transparent border-0 mb-4 p-0" style="max-width: 80%;">
+  <div class="row g-0">
+    <div class="col-4 text-start">
+      <img class="img-fluid rounded-start" src="Baumgartner.jpg" title="Baumgartner Zsolt" alt="Baumgartner Zsolt" >
+    </div>
+     <div class="col-8">
+      <div class="card-body pt-5 text-start">
+        <h5 class="card-title text-light">Baumgartner Zsolt</h5>
+        <p class="card-text">Baumgartner Zsolt Magyarország első és máig egyetlen formula 1-es versenyzője.2003-2004 közt versenyzett a forma 1-ben és a 2004-es amerikai nagydíjon megszerezte MAgyarország egyetlen Formula 1-es wb pontját.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="row">
+      <div class="col-12">
         <h4>Pályafutása:</h4>
         <p>1997-ben a német Formula–Ford, majd 1998-ban a brit Formula Renault Winter-sorozat futamain vett részt. 1999-ben a német, valamint az európai Formula–Renault-sorozatokban versenyzett. Az Európa-bajnokságot Gianmaria Bruni és Antonio Pizzonia mögött harmadikként zárta.
 
@@ -167,21 +189,22 @@ A sorozat nagy népszerűséget ért el, így ennek megfelelően berendelték a 
 
 2001-ben debütált a nemzetközi Formula–3000-es szériában. Alain Prost csapatával mindössze hét futamon állt rajthoz ebben az évben. A 2002-es szezonra a címvédő istállóhoz szerződött, a Nordic Racing pilótájaként a szezon összes versenyén elindult. Noha több alkalommal is az első tízben végzett, csak egyszer, a szezonzáró monzai futamon volt pontszerző. 2003-ban a Coloni Motorsport versenyzője volt. Míg csapattársa, Ricardo Sperafico rendre az élmezőnyben végzett, addig Baumgartner legjobb eredménye egy ötödik helyezés volt Monte Carlóban. Ebben az évben a Formula–1-es Jordan-istálló egyik tesztpilótája is lett, és mikor a csapat versenyzője, Ralph Firman a magyar nagydíj szabadedzésén megsérült, Baumgartner helyettesítette őt a Hungaroringen és Monzában. A Formula–3000-es szezon utolsó két futamán így már nem tudott részt venni.</p><br>
 </div>
-   <div class="col-md-4">
-      <img src="Baumgartner.jpg" height=295 width=203 alt="Baumgartner Zsolt" >
-   </div>
-   <div class="col-md-4">
+</div>
+<div class="row mb-2 mt-4 "> 
+   <div class="col-6">
 <h4>Formula 1:</h4>
         <p>A 2003-as magyar nagydíj szombati szabadedzésén a Jordan versenyzője, Ralph Firman balesetet szenvedett, és az orvosi személyzet nem engedélyezte számára a futamon való indulást. Baumgartner Zsolt mint a csapat tesztpilótája kapott lehetőséget Firman helyett. Az időmérő edzésen tizenkilencedikként végzett, egyedül a Minardi dán versenyzőjét, Nicolas Kiesa-t tudta megelőzni. A futamot nem sikerült befejeznie, miután a 34. körben motorhiba miatt leállt a versenyautója. A bajnokság következő fordulójában, az olasz nagydíjon is ő indult Firman helyett. Ezen a futamon a tizenegyedik helyen ért célba, két kör hátrányban a győztes Michael Schumacher mögött. Az amerikai versenyre Firman visszatért a csapathoz.</p><br>
-          
-<p>2004-ben a Minardi csapata szerződtette le a teljes szezonra. Sokáig tárgyalásban állt a Jordan csapattal is, a brit istálló azonban úgy ítélte meg, hogy a MOL támogatói feltételei teljesíthetetlenek. Az egész szezonban az olasz Gianmaria Bruni volt a csapattársa. Baumgartner lett az első közép- és kelet-európai autóversenyző, aki egész éves szerződéssel rendelkezett a Formula–1-ben.
+      </div>
+        <div class="col-6 pt-4">         
+  <p>2004-ben a Minardi csapata szerződtette le a teljes szezonra. Sokáig tárgyalásban állt a Jordan csapattal is, a brit istálló azonban úgy ítélte meg, hogy a MOL támogatói feltételei teljesíthetetlenek. Az egész szezonban az olasz Gianmaria Bruni volt a csapattársa. Baumgartner lett az első közép- és kelet-európai autóversenyző, aki egész éves szerződéssel rendelkezett a Formula–1-ben.
 A szezonnyitón technikai problémák miatt nem ért célba. Első kiemelkedőbb eredményét a monacói futamon teljesítette, ahol a mezőny fele kiesett, ő azonban beért a célba és kilencedik lett. Indianapolisban, az amerikai nagydíjon megszerezte Magyarország első pontját a világbajnokságok történelmében. Nyolcadikként, utolsó előtti célba érkezőként zárt. A Minardi csapat több mint két év után szerzett újra pontot a sorozatban. Ezt követően Baumgartner egyszer sem végzett az első tizenöt között, és az év végén elhagyta a csapatot.</p>
 </div>
-   <div class="col-md-4">
-     <h4>Formula-1 után:</h4>    
+</div>
+   <div class="col-6">
+     <h4>Formula 1 után:</h4>    
 <p>Formula–1-es pályafutását követően sehol sem kapott versenyzői állást. Továbbra is jó kapcsolatot ápolt Paul Stoddarttal, a Minardi csapatfőnökével, és 2007-ben, amikor az ausztrál üzletember csapatot indított az amerikai Champ Car-sorozatban, Baumgartner lett az alakulat teszt- és tartalékversenyzője. Az első tesztjén, Laguna Seca-ban utolsóként végzett, és összetört egy versenyautót.[6] 2008-ban a Champ Car megszűnt és a Minardi kivonult a sportból. Jelenleg édesapja családi vállalkozásában dolgozik.</p>
     </div>
-   </div>
- </div>
+   
+  </div> 
 </body>
 </html>
