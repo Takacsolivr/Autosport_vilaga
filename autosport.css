@@ -161,3 +161,6 @@ hr{
     text-align: start;
 }
 
+th, td, tr{
+    color: aliceblue;
+}
