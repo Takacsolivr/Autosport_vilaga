@@ -90,7 +90,7 @@ hr{
 
 .lemans_szoveg{
     margin-left: 7%;
-    text-align: start;
+    text-align: justify;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
 }
@@ -101,18 +101,18 @@ hr{
 }
 
 .wrc_p{
-    text-align: start;
+    text-align: justify;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
 }
 
 .f1_h3{
-    text-align: start;
+    text-align: justify;
     color: rgb(255, 255, 255);
 }
 
 .f1_p{
-    text-align: start;
+    text-align: justify;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
 }
